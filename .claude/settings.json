@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "defaultMode": "auto"
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "npx ccstatusline@latest"
+  },
+  "enabledPlugins": {
+    "code-simplifier@claude-plugins-official": false,
+    "security-guidance@claude-plugins-official": true,
+    "feature-dev@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true,
+    "frontend-design@claude-plugins-official": true,
+    "instinct-engineering@instinct-plugin-marketplace": true
+  },
+  "preferredNotifChannel": "terminal_bell",
+  "skipAutoPermissionPrompt": true,
+  "tui": "fullscreen"
+}
